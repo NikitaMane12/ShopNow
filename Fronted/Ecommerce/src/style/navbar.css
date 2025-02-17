@@ -1,0 +1,36 @@
+#navbar {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 80px;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
+#ullist1 {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+#ullist3 {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin: auto;
+  justify-self: end;
+}
+
+#ullist {
+  margin: 100px;
+}
+
+.badge {
+  background-color: red;
+  color: black;
+  border-radius: 50%;
+  font-size: 12px;
+  padding: 4px 8px;
+  position: absolute;
+  top: 0px;
+  right: -10px;
+}
