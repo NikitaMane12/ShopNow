@@ -18,7 +18,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "https://shopnow-3-gz50.onrender.com//users/login",
+        "https://shopnow-3-gz50.onrender.com/users/login",
         {
           email,
           password,
