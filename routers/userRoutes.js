@@ -25,7 +25,7 @@ userRouter.post("/register", async (req, res) => {
       firstname,
       lastname,
       email,
-      password,
+      password: hashpasword,
     });
     await newUser.save();
     return res
